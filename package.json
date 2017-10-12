@@ -1,17 +1,22 @@
 {
-  "name": "project",
+  "name": "slavas_project--laptop",
   "version": "1.0.0",
-  "description": "a goog start",
+  "description": "first project Frontcoder to learn Gulp",
   "main": "index.js",
-  "dependencies": {
-    "gulp": "^4.0.0-alpha.2"
-  },
-  "devDependencies": {
-    "gulp": "github:gulpjs/gulp#4.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavapas/Gulp_lessons_from_FronCoder_Youtube--laptop.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slavapas/Gulp_lessons_from_FronCoder_Youtube--laptop/issues"
+  },
+  "homepage": "https://github.com/slavapas/Gulp_lessons_from_FronCoder_Youtube--laptop#readme",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0"
+  }
 }
