@@ -1,7 +1,7 @@
 'use strict';
 
 var gulp = require ('gulp'),
-    pug  = require ('gulp-pug');
+    gp   = require ('gulp-load-plugins');
 
 gulp.task('pug', function(){
     return gulp.src('src/pug/pages/*.pug')
