@@ -18,5 +18,6 @@ gulp.task('stylus', function(){
     return gulp.src('src/static/stylus/main.styl')
     // here you can add options from web site of this plugin between curly brackets (stylus)
         .pipe(gp.stylus({}))
+        .pipe(csso())
         .pipe(gulp.dest('build'));
 });
